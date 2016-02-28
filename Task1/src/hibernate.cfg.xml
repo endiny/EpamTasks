@@ -11,15 +11,15 @@
         <property name="hibernate.connection.url">jdbc:postgresql://localhost/NotepadRecords</property>
         <property name="hibernate.connection.username">user</property>
         <property name="hibernate.connection.password">111111</property>
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
 
         <!-- SQL dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
 
         <!-- Print executed SQL to stdout -->
         <property name="show_sql">true</property>
-
+        <property name="hibernate.hbm2ddl.auto">create-drop</property>
         <!-- Annotated entity classes -->
-        <mapping class="com.epam.jc.task6.Db.Entities.Users"/>
         <mapping class="com.epam.jc.task6.Db.Entities.Records"/>
 
     </session-factory>
