@@ -7,6 +7,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
+ * Entity-class for keeping records
  * @author endiny
  */
 

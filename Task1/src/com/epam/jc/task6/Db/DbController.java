@@ -6,6 +6,7 @@ import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 
 /**
+ * Simple database controller. Just initializes connection. No more.
  * @author endiny
  */
 public class DbController {

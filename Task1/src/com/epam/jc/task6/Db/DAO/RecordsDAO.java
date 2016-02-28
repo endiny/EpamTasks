@@ -10,9 +10,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Class that provides an abstraction for management of DB objects
  * @author endiny
  */
 public class RecordsDAO {
+    /**
+     * Add Notepad record to database.
+     * @param o Notepad record object
+     * @throws SQLException
+     */
     public void addRecord(Records o) throws SQLException {
         Session session = null;
         try {
@@ -29,6 +35,11 @@ public class RecordsDAO {
         }
     }
 
+    /**
+     * Edit record. Object must contain valid id.
+     * @param o An edited object
+     * @throws SQLException
+     */
     public void updateRecord(Records o) throws SQLException {
         Session session = null;
         try {
@@ -45,6 +56,12 @@ public class RecordsDAO {
         }
     }
 
+    /**
+     * Get a record by id
+     * @param id id of the record
+     * @return record by specified id
+     * @throws SQLException
+     */
     @Nullable
     public Records getRecordById(Long id) throws SQLException {
         Records o = null;
@@ -62,6 +79,11 @@ public class RecordsDAO {
         return o;
     }
 
+    /**
+     * Get all records in the table
+     * @return list of records
+     * @throws SQLException
+     */
     public List getAllRecords() throws SQLException {
         Session session = null;
         List o = new ArrayList<Records>();
@@ -78,6 +100,11 @@ public class RecordsDAO {
         return o;
     }
 
+    /**
+     * Remove a record by object.
+     * @param o object to remove
+     * @throws SQLException
+     */
     public void deleteRecord(Records o) throws SQLException {
         Session session = null;
         try {
