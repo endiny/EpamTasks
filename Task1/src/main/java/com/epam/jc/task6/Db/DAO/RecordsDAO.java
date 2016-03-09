@@ -2,7 +2,6 @@ package com.epam.jc.task6.Db.DAO;
 
 import com.epam.jc.task6.Db.DbController;
 import com.epam.jc.task6.Db.Entities.Records;
-import com.sun.istack.internal.Nullable;
 import org.hibernate.Session;
 
 import java.sql.SQLException;
@@ -62,7 +61,6 @@ public class RecordsDAO {
      * @return record by specified id
      * @throws SQLException
      */
-    @Nullable
     public Records getRecordById(Long id) throws SQLException {
         Records o = null;
         Session session = null;
