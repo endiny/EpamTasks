@@ -1,0 +1,3 @@
+rootProject.name = 'EpamTasks'
+
+include 'Task1','Task2'
