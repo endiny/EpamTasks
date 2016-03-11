@@ -1,7 +1,7 @@
 package com.epam.jc.task3.stationery;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public abstract class BaseStationery {
     private double price;
@@ -20,5 +20,14 @@ public abstract class BaseStationery {
     public double getPrice() {
 
         return price;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("BaseStationery{");
+        sb.append("price=").append(price);
+        sb.append(", name='").append(name).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

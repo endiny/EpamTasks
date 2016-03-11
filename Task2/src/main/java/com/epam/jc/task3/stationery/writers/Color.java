@@ -1,7 +1,7 @@
 package com.epam.jc.task3.stationery.writers;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public enum Color {
     UNKNOWN,

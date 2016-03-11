@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public class StationeryTests {
     @Test

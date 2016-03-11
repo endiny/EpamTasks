@@ -1,7 +1,7 @@
 package com.epam.jc.task3.stationery.notepads;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public class SmallNotepad extends BaseNotepad {
     public SmallNotepad(Size size, int numberOfSheets) {

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public class Worker {
     private String name;

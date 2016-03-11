@@ -3,7 +3,7 @@ package com.epam.jc.task3.stationery.notepads;
 import com.epam.jc.task3.stationery.BaseStationery;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public abstract class BaseNotepad extends BaseStationery {
 

@@ -1,7 +1,7 @@
 package com.epam.jc.task2.stationery;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public class Pencil implements Stationery {
     @Override

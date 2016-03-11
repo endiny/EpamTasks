@@ -1,7 +1,7 @@
 package com.epam.jc.task3.stationery.writers;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public class Pencil extends WritingTool {
     public Pencil(Color color, double thickness) {

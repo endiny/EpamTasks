@@ -3,7 +3,7 @@ package com.epam.jc.task3.stationery.writers;
 import com.epam.jc.task3.stationery.BaseStationery;
 
 /**
- * @author endiny
+ * @author Vladislav Boboshko
  */
 public abstract class WritingTool extends BaseStationery {
     public Color getColor() {
