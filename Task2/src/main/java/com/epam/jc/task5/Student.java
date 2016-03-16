@@ -8,6 +8,8 @@ import java.util.TreeSet;
 
 /**
  * @author Vladislav Boboshko
+ * Я не смог реализовать привязку типов к дисциплинам.
+ * Как это грамотно можно сделать?
  */
 public class Student {
     private Set<Subject> progress;
