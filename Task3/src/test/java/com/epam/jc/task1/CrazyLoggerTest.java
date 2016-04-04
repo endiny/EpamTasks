@@ -17,9 +17,9 @@ public class CrazyLoggerTest {
         CrazyLogger.addMessage("Mario");
         CrazyLogger.addMessage("testMario");
         CrazyLogger.addMessage("Variative");
+        CrazyLogger.addMessage("Varargs");
         CrazyLogger.addMessage("So crazy");
-        String a;
-        System.out.println(a = CrazyLogger.findLastMessage("Var") + "\n");
+        System.out.println(CrazyLogger.findLastMessage("Var") + "\n");
         CrazyLogger.findMessages("Mario").forEach(System.out::println);
     }
 }
